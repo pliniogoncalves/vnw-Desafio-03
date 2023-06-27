@@ -20,6 +20,7 @@ header{
     font-family: 'Montserrat', sans-serif;
     background-color: #4B93BF;
     color: #fff;
+    height: 12vh;
 }
 
 .section-header{
@@ -47,11 +48,41 @@ main{
 }
 
 .section-main1{
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 38vh;
     color:#0F468C;
     font-size: 20px;
 }
+
+.section-main2{
+    /* border: solid red; */
+    height: 26vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4B93BF;
+    color: #fff;
+    font-size: 30px;
+}
+
+.section-main3{
+    border: solid red;
+    height: 38vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-main3 figure {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.section-main3 img {
+    width: 18vw;
+    height: auto;
+  }
