@@ -9,9 +9,11 @@
 body{
     height: 100vh;
     background-size: cover;
+    background-color:#E4EEF1;
 }
 
 header{
+    /* border: solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,9 +23,9 @@ header{
 }
 
 .section-header{
+    /* border: solid red; */
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     width: 38vw;
 }
 
@@ -32,10 +34,24 @@ header{
     list-style: none;
     width: 40vw;
     justify-content: space-evenly;
-    font-size: 19px;
+    font-size: 25px;
 }
 
-.h2-hedaer{
+.h2-header{
     font-weight: 300;
-    font-size: 19px;
+    font-size: 30px;
+}
+
+main{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-main1{
+    border: solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 38vh;
+    color:#0F468C;
+    font-size: 20px;
 }
