@@ -38,6 +38,11 @@ header{
     font-size: 25px;
 }
 
+.ul-header li:hover{
+    cursor: pointer;
+    transform: scale(115%);
+}
+
 .h2-header{
     font-weight: 300;
     font-size: 30px;
@@ -83,7 +88,7 @@ main{
 }
 
 .section-main3 img {
-    width: 20vw;
+    width: 18vw;
     height: auto;
 }
 
