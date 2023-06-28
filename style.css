@@ -107,6 +107,8 @@ footer p{
     text-align: center;
     font-size: 20px;
     /* border: solid red; */
+    position: relative;
+    right: 8vw;
 }
 
 footer figure{
@@ -119,4 +121,13 @@ footer figure{
 footer img:hover {
     cursor: pointer;
     transform: scale(115%);
+}
+
+.redes-sociais{
+    /* border:solid red; */
+    width: 19vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 4vw;
 }
